@@ -1,0 +1,110 @@
+* {
+    align-items: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    height: auto;
+    width: auto;
+    background-color: tan;
+}
+
+h1 {
+    font-size: 48px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    top: 0%;
+    display: flex;
+    transition: all 0.2s linear;
+    z-index: 999;
+}
+
+h4 {
+
+}
+
+button {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:firebrick;
+  text-decoration-color: black;
+
+  width: 70%;
+  height: 100%;
+    
+}
+
+#aboutme {
+    height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme p {
+    font-size: 1.75rem;
+}
+
+
+#portfolio {
+    height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#socialnetwork {
+    height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#resume {
+    height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
+    height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+
+}
+
